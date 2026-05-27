@@ -14,7 +14,7 @@ def calculate_discount(purchase_amount: float, is_member: bool) -> float:
 
 
     #Base discount calculation
-    if purchase_amount >= 50:
+    if purchase_amount > 50:
         price = purchase_amount * 0.9 
     else:
         price = purchase_amount 
